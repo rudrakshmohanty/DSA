@@ -20,7 +20,7 @@ int main() {
 
     int result = binarySearch(arr, 0, n - 1, target);
     if (result != -1) {
-        printf("Element %d found at index %d.\n", result, target);
+        printf("Element %d found at index %d..\n", result, target);
     } else {
         printf("Element %d not found in the array.\n", result);
     }

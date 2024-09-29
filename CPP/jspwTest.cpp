@@ -24,9 +24,11 @@ void BubbleSort(int arr[], int n){
 
 int main(){
     int n;
+    cout<<"Enter the Size of the Array: ";
     cin>>n;
     int arr[n];
     for(int i=0; i<n; i++){
+        cout<<"Enter the ["<<i<<"] element: ";
         cin>>arr[i];
     }
     cout<<"\n"<<"Before Bubble Sort: ";
